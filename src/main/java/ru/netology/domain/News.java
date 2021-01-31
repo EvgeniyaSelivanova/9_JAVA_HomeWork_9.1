@@ -1,8 +1,9 @@
 package ru.netology.domain;
 
-public class News {
+public class News { /***copyright - источник материала, объект с полями*/
     private String ID;
-    private String imageURL;
-    private String nameURL;
+    private String imageURL; /***link*/
+    private String nameURL; /***name*/
+    private String type; /*Vk*/
 
 }
