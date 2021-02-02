@@ -1,8 +1,6 @@
 package ru.netology.domain.attachment;
 
-public class Section {
-    private Integer id;
+public class CurrencyInfo {
+    private int id;
     private String name;
-
-
 }

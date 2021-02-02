@@ -1,61 +1,44 @@
 package ru.netology.domain.attachment;
 
-import ru.netology.domain.Place;
-
-import java.lang.reflect.Array;
-
 public class Video {
-    private Integer id;
-    private Integer ownerId;
+    private int id;
+    private int ownerId;
     private String title;
     private String description;
-    private Integer duration;
-    private Array image[];
-    private Array firstFrame[];
-    private Integer date;
-    private Integer addingDate;
-    private Integer views;
-    private Integer localViews;
-    private Integer comments;
+    private int duration;
+    private int date;
+    private int addingDate;
+    private int views;
+    private int localViews;
+    private int comments;
     private String player;
     private String platform;
-    private Integer canEdit;
-    private Integer canAdd;
-    private Integer isPrivate;
+    private int canEdit;
+    private boolean canAdd;
+    private int isPrivate;
     private String accessKey;
-    private Integer processing;
-    private Boolean isFavorite;
-    private Integer canComment;
-    private Integer canEditVideo;
-    private Integer canLike;
-    private Integer canRepost;
-    private Integer canSubscribe;
-    private Integer canAddToFaves;
-    private Integer canAttachLink;
-    private Integer width;
-    private Integer height;
-    private Integer userId;
-    private Integer converting;
-    private Integer added;
-    private Integer isSubscribed;
-    private Integer repeat;
+    private int processing;
+    private boolean isFavorite;
+    private boolean canComment;
+    private boolean canEditVideo;
+    private boolean canLike;
+    private boolean canRepost;
+    private boolean canSubscribe;
+    private boolean canAddToFaves;
+    private boolean canAttachLink;
+    private int width;
+    private int height;
+    private int userId;
+    private boolean converting;
+    private boolean added;
+    private boolean isSubscribed;
+    private int repeat;
     private String type;
-    private Integer balance;
+    private int balance;
     private String liveStatus;
-    private Integer live;
-    private Integer upcoming;
-    private Integer spectators;
-
-    private Like[] likes;
-
-    public Like[] getLikes() {
-        return null;
-    }
-
-    private Repost[] reposts;
-
-    public Repost[] getReposts() {
-        return null;
-    }
-
+    private int live;
+    private int upcoming;
+    private int spectators;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
 }

@@ -1,14 +1,12 @@
 package ru.netology.domain.attachment;
 
 public class Event {
-    private Integer id;
-    private Integer time;
-    private Integer memberStatus;
-    private Boolean isFavorite;
+    private int id;
+    private int time;
+    private int memberStatus;
+    private boolean isFavorite;
     private String address;
     private String text;
     private String buttonText;
-    private Integer[] friends;
-
-
+    private int[] friends;
 }

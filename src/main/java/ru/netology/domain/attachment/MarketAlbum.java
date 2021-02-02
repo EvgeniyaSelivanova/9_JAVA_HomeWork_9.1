@@ -1,18 +1,10 @@
 package ru.netology.domain.attachment;
 
 public class MarketAlbum {
-    private Integer id;
-    private Integer ownerId;
+    private int id;
+    private int ownerId;
     private String title;
-    private Integer count;
-    private Integer updatedTime;
-
-    private Photo[] photo;
-
-    public Photo[] getPhotoForDisplay() {
-
-        return null;
-    }
-
-
+    private PhotoInfo photoInfo;
+    private int count;
+    private int updatedTime;
 }

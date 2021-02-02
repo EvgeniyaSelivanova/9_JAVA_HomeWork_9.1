@@ -2,13 +2,12 @@ package ru.netology.domain.attachment;
 
 public class Note {
 
-   private Integer id;
-   private Integer ownerId;
+   private int id;
+   private int ownerId;
    private String title;
    private String text;
-   private Integer date;
-   private Integer comments;
-   private Integer readComments;
+   private int date;
+   private int comments;
+   private int readComments;
    private String viewUrl;
-
 }

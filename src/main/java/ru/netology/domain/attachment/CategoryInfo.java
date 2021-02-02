@@ -1,8 +1,7 @@
 package ru.netology.domain.attachment;
 
-public class App {
+public class CategoryInfo {
     private int id;
     private String name;
-    private String photo130;
-    private String photo604;
+    private SectionInfo sectionInfo;
 }

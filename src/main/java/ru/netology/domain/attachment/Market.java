@@ -1,37 +1,17 @@
 package ru.netology.domain.attachment;
 
 public class Market {
-    private Integer id;
-    private Integer ownerId;
+    private int id;
+    private int ownerId;
     private String title;
     private String description;
-    private Integer weight;
+    private PriceInfo priceInfo;
+    private DimensionInfo dimensionInfo;
+    private int weight;
+    private CategoryInfo categoryInfo;
     private String thumbPhoto;
-    private Integer date;
-    private Integer availability;
-    private Boolean isFavorite;
+    private int date;
+    private int availability;
+    private boolean isFavorite;
     private String sku;
-
-    private Price[] price;
-
-    public Price[] getPriceForDisplay() {
-
-        return null;
-    }
-
-    private Dimension[] dimension;
-
-    public Dimension[] getDimensionForDisplay() {
-
-        return null;
-    }
-
-    private Category[] category;
-
-    public Category[] getCategoryForDisplay() {
-
-        return null;
-    }
-
-
 }

@@ -6,11 +6,11 @@ public class CommentsInfo { /***информация о комментариях
     private String date;
     private String time;
     private String description;
-    private Integer like;
-    private Boolean interest;
-    private Integer count;  /*количество комментариев*/
-    private Integer canPost;  /*информация о том, может ли текущий пользователь комментировать запись*/
-    private Integer groupsCanPost;  /*информация о том, могут ли сообщества комментировать запись*/
-    private Boolean canClose; /*может ли текущий пользователь закрыть комментарии к записи*/
-    private Boolean canOpen; /*может ли текущий пользователь открыть комментарии к записи*/
+    private int like;
+    private boolean interest;
+    private int count;  /*количество комментариев*/
+    private boolean canPost;  /*информация о том, может ли текущий пользователь комментировать запись*/
+    private boolean groupsCanPost;  /*информация о том, могут ли сообщества комментировать запись*/
+    private boolean canClose; /*может ли текущий пользователь закрыть комментарии к записи*/
+    private boolean canOpen; /*может ли текущий пользователь открыть комментарии к записи*/
 }
